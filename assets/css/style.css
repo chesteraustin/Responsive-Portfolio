@@ -239,13 +239,56 @@ input[type=submit] {
 }
 
 @media (max-width: 980px) {
+  .main-section {
+    max-width: 400px;
+    margin: 0 1em 0 2em;
+    float: left;
+  }
+  .sidebar {
+    max-width: 400px;
+    margin:  0 3em 0 1em;
+    float: right;
+  }
+  .auth-image {
+    width: 100%;
+  }
 
 }
 
 @media (max-width: 768px) {
+  .main-section {
+    max-width: 700px;
+    margin: 1em 1em 1em 1em;
+    float: left;
+  }
+  .sidebar {
+    max-width: 700px;
+    margin: 1em 1em 1em 1em;
+    float: left;
+  }
+
+  .auth-image {
+    float: left;
+    width: 50%;
+  }
 
 }
 
 @media (max-width: 640px) {
+  .main-section {
+    max-width: 600px;
+    margin: 1em 1em 1em 1em;
+    float: left;
+  }
+  .sidebar {
+    max-width: 600px;
+    margin: 1em 1em 1em 1em;
+    float: left;
+  }
+
+  .auth-image {
+    float: left;
+    width: 100%;
+  }
 
 }
